@@ -40,9 +40,10 @@ Section:NewToggle("Low Gravity", "The Low Gravity", function(state)
     end
 end)
 
-local Tab = Window:NewTab("Credits")
+local Tab = Window:NewTab("Ez Scripts")
 
-local Section = Tab:NewSection("Credit")
+local Section = Tab:NewSection("Guy")
 
-Section:NewButton("C0D4T BY tim00050", "Credits", function()
+Section:NewButton("Fly GUY", "Fly", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/W5aQUui6"))()
 end)

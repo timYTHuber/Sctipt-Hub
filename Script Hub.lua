@@ -47,3 +47,14 @@ local Section = Tab:NewSection("Guy")
 Section:NewButton("Fly GUY", "Fly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/W5aQUui6"))()
 end)
+
+Section:NewButton("ZEON Glicher FE", "TROLL FRIENDS", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/timYTHuber/ZEON-Glicher/main/ZEON%20Glicher.lua"))()
+end)
+
+local Tab = Window:NewTab("Credits")
+
+local Section = Tab:NewSection("Credit")
+
+Section:NewButton("C0D4T BY tim00050", "Credits", function()
+end)

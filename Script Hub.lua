@@ -52,6 +52,10 @@ Section:NewButton("ZEON Glicher FE", "TROLL FRIENDS", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/timYTHuber/ZEON-Glicher/main/ZEON%20Glicher.lua"))()
 end)
 
+Section:NewButton("ZEON Glicher FE", "TROLL FRIENDS", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/timYTHuber/Free-camera/main/Free%20camera.lua"))()
+end)
+
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Credit")
